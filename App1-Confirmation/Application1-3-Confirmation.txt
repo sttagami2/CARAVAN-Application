@@ -1,0 +1,18 @@
+問1：Blogモデル用にform_forを生成する際、newアクションに必要なものは以下のどれですか。
+
+　a. blog = Blog.new
+　b. @blog = Blog.new
+　c. @blog = Blog.find
+　d. blog = Blogs.find
+
+Answer：b
+
+
+問2：form_forの最上部の記述として、正しいものは以下のどれですか。
+
+　a. <% インスタンス.form_for do |f| %>
+　b. <%= インスタンス.form_for do |f| %>
+　c. <% form_for(インスタンス) do |f| %>
+　d. <%= form_for(インスタンス) do |f| %>
+
+Answer：d
