@@ -1,0 +1,23 @@
+問1：eachを用いたループ文内でlink_toの正しい記述は、次のうちどれでしょうか。
+なお、pathは、正しく定義されているとします。
+
+　a. <%= link_to, post.title, post_path(post) %>
+　b. <%= link_to post.title, post_path(post) %>
+　c. <%= link_to post.title post_path(post) %>
+
+
+
+問2：eachを用いたループ文として、適切な記述はどれでしょうか。
+なお、インスタンスやブロック変数は、正しく定義されているとします。
+
+　a. <% @posts.each do |post| %>
+　　　<% end %>
+
+　b. <%= @posts.each do |post| %>
+　　　<%= end %>
+
+　c. <%= @posts.each do |post| %>
+　　　<% end %>
+
+　d. <% @posts.each do |post| %>
+　　　<%= end %>
