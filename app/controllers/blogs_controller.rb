@@ -25,6 +25,16 @@ class BlogsController < ApplicationController
   end
 
   def edit
+    @blog = Blog.find(params[:id])
+    # インスタンス変数をViewに渡す
+    # find = Blogモデルのデータベースから投稿データを探すメソッド
+    # モデル = 表の名前みたいなもの？
+  end
+
+  def update
+    blog = Blog.find(params[:id])
+    blog.update(blog_params)
+    redirect_to blog_path(blog)
   end
 
   private
