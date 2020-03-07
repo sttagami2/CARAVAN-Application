@@ -23,5 +23,7 @@ class BlogsController < ApplicationController
   def blog_params
     params.require(:blog).permit(:title, :category, :body)
     # フォームから送られてきた投稿を、createアクションに保存する処理
+    # Strong Parametersを使うと、フォームからのデータを受け取れるようになる。
+    # とても大切！　→　覚えておこう
   end
 end
