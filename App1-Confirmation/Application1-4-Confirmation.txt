@@ -5,6 +5,7 @@
 　b. <%= link_to post.title, post_path(post) %>
 　c. <%= link_to post.title post_path(post) %>
 
+Answer：b
 
 
 問2：eachを用いたループ文として、適切な記述はどれでしょうか。
@@ -21,3 +22,5 @@
 
 　d. <% @posts.each do |post| %>
 　　　<%= end %>
+
+Answer：a
