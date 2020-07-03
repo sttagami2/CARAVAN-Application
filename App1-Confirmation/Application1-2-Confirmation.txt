@@ -1,0 +1,32 @@
+問1：Postモデルに関連するコントローラ、indexアクション、showアクションを同時に作成するコマンドは、以下のどれですか。
+
+a. rails g controller posts index show
+b. rails g controller post index show
+c. rails controller g posts index show
+d. rails g controller posts(index show)
+
+Answer：a
+
+
+
+問2：「RESTfulなURL」を簡単に作成できる記述は。以下のどれですか。
+※対応するコントローラはposts
+
+a. resources: post
+b. resources: posts
+c. resources :post
+d. resources :posts
+
+Answer：d
+
+
+
+問3：posts　 GET /posts(.:format) posts#index
+このルーティングを生成する記述で、間違っているものはどれですか。
+
+a. get 'posts' => 'posts#index'
+b. get 'posts' => 'posts#index', as: 'posts'
+c. resources :posts, only: [:index]
+d. resources :posts, :index
+
+Answer：d
